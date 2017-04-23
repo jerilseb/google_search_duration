@@ -4,11 +4,15 @@
   "name": "Google Search Duration",
   "description": "Easily change the duration of google search",
   "version": "1.0",
-  "browser_action": {
+    "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
   "permissions" : [
-    "activeTab"
+    "activeTab", "declarativeContent"
   ]
 }
