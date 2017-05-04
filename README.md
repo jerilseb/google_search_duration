@@ -8,6 +8,11 @@ A chrome extension to easily switch the search duration for Google search
 
 ## Installation
 
+Easiest way to install is through the chrome web store
+https://chrome.google.com/webstore/detail/google-search-duration/gohmpbncdcmfmkoceccbdfmpjbbclnpg
+
+### Manual Installation
+
 Go to chrome://extensions and enable developer mode. Then click on 'load unpacked extension' and choose the project directory. That's it.
 
 ## License
