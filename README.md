@@ -1,3 +1,5 @@
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nimelepbpejjlbmoobocpfnjhihnpked.svg)](https://chrome.google.com/webstore/detail/google-search-duration/gohmpbncdcmfmkoceccbdfmpjbbclnpg)
+
 # Google search duration
 
 A chrome extension to easily switch the search duration for Google search
