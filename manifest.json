@@ -1,17 +1,19 @@
 {
-  "manifest_version": 2,
-
+  "manifest_version": 3,
   "name": "Google Search Duration",
   "description": "Easily change the duration of Google search",
   "version": "1.1",
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+  "icons": {
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   },
-  "icons": { "32": "icon32.png", "48": "icon48.png", "128": "icon128.png" },
-  "page_action": {
+  "action": {
     "default_icon": "icon48.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab", "declarativeContent"]
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
 }
