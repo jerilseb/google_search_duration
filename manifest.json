@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Google Search Duration",
   "description": "Easily change the duration of Google search",
-  "version": "1.1",
+  "version": "1.2",
   "icons": {
     "32": "icon32.png",
     "48": "icon48.png",
